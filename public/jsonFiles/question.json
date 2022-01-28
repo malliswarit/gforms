@@ -1,0 +1,48 @@
+[
+   {
+      "DropdownList": [
+         "CheckBox",
+         "Radio",
+         "Short Text",
+         "Paragraph",
+         "Dropdowns",
+         "Linear Scale"
+      ],
+      "CheckBoxList": [
+         {
+            "label": "Option1",
+            "checkvalue": false,
+            "radiovalue": false
+         },
+         {
+            "label": "Add Option",
+            "checkvalue": false,
+            "radiovalue": false
+         }
+      ],
+      "SelectType": "Radio"
+   },
+   {
+      "DropdownList": [
+         "CheckBox",
+         "Radio",
+         "Short Text",
+         "Paragraph",
+         "Dropdowns",
+         "Linear Scale"
+      ],
+      "CheckBoxList": [
+         {
+            "label": "Option1",
+            "checkvalue": false,
+            "radiovalue": false
+         },
+         {
+            "label": "Add Option",
+            "checkvalue": false,
+            "radiovalue": false
+         }
+      ],
+      "SelectType": "Short Text"
+   }
+]

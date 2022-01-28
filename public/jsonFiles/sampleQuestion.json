@@ -1,0 +1,46 @@
+[
+    {
+        "Question": "Grand Central Terminal, Park Avenue, New York is the world's ?",
+        "RadiooptionList": [
+            "largest railway station",
+            "highest railway station",
+            "longest railway station",
+            "None of the above"
+        ],
+        "type": "Radio",
+        "value": ""
+    },
+    {
+        "Question": "Entomology is the science that studies ?",
+        "RadiooptionList": [
+            "Behavior of human beings",
+            "Insects",
+            "The origin and history of technical and scientific terms",
+            "The formation of rocks"
+        ],
+        "type": "Radio",
+        "value": ""
+    },
+    {
+        "Question": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of ?",
+        "RadiooptionList": [
+            "Asia",
+            "Africa",
+            "Europe",
+            "Australia"
+        ],
+        "type": "Radio",
+        "value": ""
+    },
+    {
+        "Question": "Garampani sanctuary is located at ?",
+        "RadiooptionList": [
+            "Junagarh, Gujarat",
+            "Diphu, Assam",
+            "Kohima, Nagaland",
+            "Gangtok, Sikkim"
+        ],
+        "type": "Radio",
+        "value": ""
+    }
+]

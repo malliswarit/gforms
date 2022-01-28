@@ -1,0 +1,27 @@
+[
+    {
+        "Question": "Where is Bhadradi ?",
+        "value": "",
+        "type": "Short Text"
+    },
+    {
+        "Question": "Where is Srisailam ?",
+        "RadiooptionList": [
+            "Maharastra",
+            "Vishnupuram",
+            "Hyderabad"
+        ],
+        "type": "Radio",
+        "value": ""
+    },
+    {
+        "Question": "Where is Shridi ?",
+        "checkBoxoptionList": [
+            "Maharastra",
+            "Vishnupuram",
+            "Hyderabad"
+        ],
+        "type": "checkbox",
+        "value": []
+    }
+]
