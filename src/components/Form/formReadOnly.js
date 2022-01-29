@@ -214,7 +214,7 @@ const ReadOnlyForm = (props) => {
             </Grid>
           ))}
       </Grid>
-      <Button variant="contained" color="primary" onClick={submitData} style={{ marginTop: "30px" }}> Submit </Button>
+      <Button variant="contained" color="primary" onClick={submitData} style={{ marginTop: "30px" ,  marginBottom: "30px"}}> Submit </Button>
     </Grid>
 
   );
