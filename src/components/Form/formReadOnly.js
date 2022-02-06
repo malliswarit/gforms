@@ -109,6 +109,7 @@ const ReadOnlyForm = (props) => {
   };
 
   const submitData = () => {
+  
    props.updateIndex(true, 1)
   }
 
@@ -124,6 +125,8 @@ const ReadOnlyForm = (props) => {
   }
 
 
+console.log(sampleData)
+console.log(sampleData.filter((item) => item.value !=""))
   return (
     <Grid container className={classes.mainContainer} spacing={3}>
       <Grid container className={classes.mainContainer} spacing={3}>
@@ -214,7 +217,10 @@ const ReadOnlyForm = (props) => {
             </Grid>
           ))}
       </Grid>
-      <Button variant="contained" color="primary" onClick={submitData} style={{ marginTop: "30px" ,  marginBottom: "30px"}}> Submit </Button>
+      <Button variant="contained" color="primary" onClick={submitData
+      } style={{ marginTop: "30px" ,  marginBottom: "30px"}}
+      disabled={sampleData && sampleData.filter((item) => item.value  != "").length < 4 ? true: false}
+      > Submit </Button>
     </Grid>
 
   );
